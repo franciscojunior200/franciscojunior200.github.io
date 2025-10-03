@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+header {
+
+    background-color: #2C3E50;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+header nav ul li {
+
+    display: inline;
+    list-style-type: none;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    /* melhor que inline para espaçamento */
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #f9fcff;
+    color: #333;
+    line-height: 1.6;
+
+
+}
+
+main h1 {
+    width: 80%;
+    margin: 50px auto;
+    color: #008cff;
+    margin-bottom: 10px;
+    text-align: left;
+
+    border-bottom: 2px solid #008cff;
+}
+
+main div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    text-align: left;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #00aeff;
+    color: white;
+    text-align: left;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.cortabela {
+
+    background-color: #00aeff;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.cortextofooter {
+
+    color: white;
+
+}
+
+footer {
+
+
+    background-color: #2C3E50;
+    color: white;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+
+}
